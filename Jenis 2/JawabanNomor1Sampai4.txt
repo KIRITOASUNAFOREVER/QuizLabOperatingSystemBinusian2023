@@ -1,0 +1,11 @@
+Nomor 1
+mkdir -p Bar/Boba/"Milk Tea" Bar/Boba/"Hazelnut Choco" Bar/Tea/"Green Tea"
+
+Nomor 2
+touch -c -t 202106210000 Bar/Boba/"Milk Tea"/recipe.txt
+
+Nomor 3
+find . -iname "*.txt" -size -1K
+
+Nomor 4
+ps -C bash -o PID

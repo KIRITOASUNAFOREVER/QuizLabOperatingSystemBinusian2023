@@ -1,0 +1,11 @@
+Nomor 1
+mkdir -p Food/"Food Type"/"Junk Food" Food/"Food Type"/"Healthy Food" Food/"Nutritional Facts"/Calories Food/"Nutritional Facts"/Nutritions Food/Ingredients
+
+Nomor 2
+install -m 755 /dev/null Food/"Nutritional Facts"/Calories/BurnFats.txt; install -m 755 /dev/null Food/"Nutritional Facts"/Calories/notFats.txt; echo "Burn your fats!" >> BurnFats.txt.txt
+
+Nomor 3
+find -iname "*.txt" ! -size 0
+
+Nomor 4
+ps -ef –sort uid
